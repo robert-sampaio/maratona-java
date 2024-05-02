@@ -30,7 +30,13 @@ public class Operadores {
         float salario = 3700F;
         boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario >= 4612;
         boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
-        System.out.println(isDentroDaLeiMaiorQueTrinta);
-        System.out.println(isDentroDaLeiMenorQueTrinta);
+//        System.out.println(isDentroDaLeiMaiorQueTrinta);
+//        System.out.println(isDentroDaLeiMenorQueTrinta);
+
+        double valorTotalContaCorrente = 700;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000F;
+        boolean isPlaystationCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+//        System.out.println("Posso comprar o PlayStation 5? " + isPlaystationCompravel);
     }
 }
