@@ -38,5 +38,19 @@ public class Operadores {
         float valorPlaystation = 5000F;
         boolean isPlaystationCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
 //        System.out.println("Posso comprar o PlayStation 5? " + isPlaystationCompravel);
+
+        // Operadores de Atribuição
+        // = += -= *= /= %=
+        double bonus = 1800; // 1800
+        bonus += 1000; // 2800
+        bonus -= 500; // 2300
+        bonus *= 2; // 4600
+        bonus /= 2; // 2300
+        bonus %= 2; // 0
+        System.out.println(bonus);
+
+        int contador = 0;
+        contador++; // contador = contador + 1;
+        contador--; // contador = contador - 1;
     }
 }
